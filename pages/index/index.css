@@ -1,0 +1,35 @@
+.page{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.card{
+	width: 650upx;
+	height: 360upx;
+	background: url('https://gd-hbimg.huaban.com/0fde0d26191f3478d67e601e245290fa811ccbf81e99e-jUwamg_fw1200') repeat;
+	border-radius: 15upx;
+	box-shadow: 3px 2px 10px #dedede;
+	padding: 30upx;
+}
+.logo{
+	width: 200upx;
+}
+.logo-wraper{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.name{
+	color: #5e676d;
+	font-weight: bold;
+}
+.info-wraper{
+	margin-bottom: 30upx;
+	margin-left: 30upx;
+}
+.email{
+	margin-top: 20upx;
+}
